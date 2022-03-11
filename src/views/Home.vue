@@ -5,8 +5,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'Home',
   data() {
@@ -14,6 +12,5 @@ export default {
       billboard: "版本更新"
     }
   }
-
 }
 </script>
