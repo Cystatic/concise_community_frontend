@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import { userRegister } from '@/api/auth/register'
+import { userRegister } from '@/api/auth/auth'
 export default {
   name: 'Register',
   data() {
