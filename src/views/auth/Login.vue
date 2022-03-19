@@ -88,13 +88,14 @@ export default {
         if (valid) {
           this.loading = true;
           this.$store
-            .dispatch("user/login", this.ruleForm)
+            .dispatch("user/Login", this.ruleForm)
             .then(() => {
               this.$message({
                 message: "恭喜你，登录成功",
                 type: "success",
                 duration: 2000,
               });
+               
               setTimeout(() => {
                 this.loading = false;
                 this.$router.push({ path: this.redirect || "/" });
